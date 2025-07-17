@@ -1,0 +1,15 @@
+:root{
+    --bs-primary-rgb: #f39200!important;
+}
+.logo{
+        width: 11% !important;
+
+}
+.btn-primary {
+    background-color: var(--bs-primary-rgb);
+    border-color: var(--bs-primary-rgb);
+}
+.btn:hover{
+    background-color:#f39200b5  ;
+    border: #f39200;
+}
