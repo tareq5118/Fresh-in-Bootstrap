@@ -5,6 +5,14 @@
         width: 11% !important;
 
 }
+@media(max-width:789px){
+.logo{
+    width: 25% !important;
+}
+}
+.color-primary{
+    color: var(--bs-primary-rgb)!important;
+}
 .btn-primary {
     background-color: var(--bs-primary-rgb);
     border-color: var(--bs-primary-rgb);
@@ -12,4 +20,49 @@
 .btn:hover{
     background-color:#f39200b5  ;
     border: #f39200;
+}
+.btn-secondary {
+    border-color: #4fc1ea;
+    background-color: #4fc1ea;}
+ .btn-secondary:hover{
+        opacity: .8;
+        box-shadow: 0 14px 26px -12px #4fc1ea6b, 0 4px 23px #0000001f, 0 8px 10px -5px #4fc1ea33;
+        border-color: #4fc1ea;
+        background-color: #4fc1ea;
+    }
+ .card{
+            border: 1px solid #ededed;
+            
+    }
+    .graet-power{
+        position: relative;
+    }
+    .line::before{
+        content: '';
+        width: 5rem;
+        height: 0.2em;
+        background-color: var(--bs-primary-rgb);
+        position: absolute;
+left: 50%;
+transform:translateX(-50%) ;
+/* transform: translateY(-50%); */
+    }
+    .testimonial{
+        box-shadow: 0 0 5px #00000026;
+    }
+    footer{
+        background: #444f60;
+    color: #fff;
+    }
+    footer a{
+            color: #98a9c3;
+    font-weight: 400;
+    transition: all .5s;
+    }
+    footer a:hover{
+            color: #fcfcfc;
+    }
+    .swiper {
+  width: 600px;
+  height: 300px;
 }
